@@ -1,0 +1,6 @@
+SOURCE_TABLE=migration-demo-user-data
+SOURCE_REGION=us-east-1
+TARGET_TABLES=(
+    migration-demo-target-us-west-2-user-data
+    migration-demo-target-eu-west-1-user-data
+)

@@ -1,0 +1,6 @@
+Date,Product,Quantity,Price,Customer
+2024-09-01,Widget A,5,29.99,Customer1
+2024-09-01,Widget B,3,45.50,Customer2
+2024-09-02,Widget A,2,29.99,Customer3
+2024-09-02,Widget C,1,89.99,Customer1
+2024-09-03,Widget B,4,45.50,Customer4
