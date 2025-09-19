@@ -1,0 +1,37 @@
+{
+  "s3_bulk_migration": {
+    "source_count": 10,
+    "targets": {
+      "migration-demo-target-us-west-2-36714": {
+        "count": 8,
+        "missing": 2,
+        "status": "INCOMPLETE"
+      },
+      "migration-demo-target-eu-west-1-36714": {
+        "count": 8,
+        "missing": 2,
+        "status": "INCOMPLETE"
+      }
+    },
+    "status": "INCOMPLETE"
+  },
+  "s3_replication": {
+    "status": "FAILED",
+    "test_file": "validation/replication-test-1758243040.txt"
+  },
+  "dynamodb_sync": {
+    "source_count": 4,
+    "targets": {
+      "migration-demo-target-us-west-2-user-data": {
+        "count": 4,
+        "status": "SYNCED"
+      },
+      "migration-demo-target-eu-west-1-user-data": {
+        "count": 4,
+        "status": "SYNCED"
+      }
+    },
+    "status": "SYNCED"
+  },
+  "overall_status": "PARTIAL_SUCCESS"
+}
